@@ -1,4 +1,4 @@
-=== Stop SOPA ===
+=== Open Graph Meta ===
 Contributors: ichurakov
 Plugin Name: Open Graph Meta
 Author: Ivan Churakov
