@@ -22,7 +22,6 @@ class ogmeta_class {
 			echo '
 	<meta property="og:title" content="'.esc_attr(trim(wp_title('',false))).'" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="'.get_permalink().'" />
 	'.(has_post_thumbnail() ? '<meta property="og:image" content="'.wp_get_attachment_url(get_post_thumbnail_id($post->ID)).'" />' : '').'
 	<meta property="og:site_name" content="'.esc_attr(get_bloginfo('name')).'" />
 	<meta property="og:description" content="'.esc_attr(strip_tags(get_the_excerpt())).'" />';
